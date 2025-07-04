@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="accountSettings">
+    <option name="activeProfile" value="profile:princy-jarvis" />
+    <option name="activeRegion" value="us-east-1" />
+    <option name="recentlyUsedProfiles">
+      <list>
+        <option value="profile:princy-jarvis" />
+        <option value="profile:princy-jarvi" />
+        <option value="profile:jarvis" />
+        <option value="profile:princ-Jarvis" />
+        <option value="profile:princy-Jarvis" />
+      </list>
+    </option>
+    <option name="recentlyUsedRegions">
+      <list>
+        <option value="us-east-1" />
+        <option value="us-west-1" />
+      </list>
+    </option>
+  </component>
+  <component name="explorerToolWindow">
+    <option name="selectedTab" value="CodeCatalyst" />
+  </component>
+</project>
