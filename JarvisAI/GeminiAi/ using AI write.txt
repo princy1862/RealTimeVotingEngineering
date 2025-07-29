@@ -1,9 +1,0 @@
-Please provide me with instructions or a prompt.  I need to know what you want me to write using AI.  For example, tell me:
-
-* "Write a short story about a robot who learns to love."
-* "Write a poem about the ocean."
-* "Write a Python function that calculates the factorial of a number."
-* "Write a news article about the latest advancements in AI."
-* "Write a creative writing piece on the theme of isolation."
-
-The more detail you give me, the better I can assist you.
