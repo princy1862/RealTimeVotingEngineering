@@ -1,4 +1,5 @@
-**Realtime Election Voting System**
+### **Realtime Election Voting System**
+
 This repository provides a complete implementation of a real-time election voting system developed using **Python**, **Kafka**, **Spark Streaming**, **Postgres**, and **Streamlit**. The entire setup is containerized with **Docker Compose**, making it easy to deploy all required services.
 
 
