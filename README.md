@@ -9,7 +9,9 @@ This repository provides a complete implementation of a real-time election votin
 ![system_architecture](https://github.com/user-attachments/assets/1b1ddedd-5ae6-4b3d-8962-73493a901a2d)
 
 
-* **System Flow:** `system_flow.jpg`
+* **System Flow:**
+  
+![system_flow](https://github.com/user-attachments/assets/bd381242-bfa7-44dd-9889-77d4e5317175)
 
 
 
@@ -91,7 +93,16 @@ streamlit run streamlit-app.py
 
 ###  **Screenshots**
 
-* **Candidates and Parties:** `candidates_and_party.png`
-* **Voters List:** `voters.png`
-* **Voting Process:** `voting.png`
-* **Dashboard View:** `dashboard_image.png`
+* **Candidates and Parties:**
+<img width="1113" height="225" alt="Screenshot 2025-07-29 at 10 05 23 AM" src="https://github.com/user-attachments/assets/84793cfd-40fe-4e34-b9cd-fe7b0b0aab08" />
+
+* **Voters List:**
+<img width="1133" height="465" alt="Screenshot 2025-07-29 at 10 06 36 AM" src="https://github.com/user-attachments/assets/ca450a8d-ee4e-433e-baa4-287ff269045f" />
+
+* **Voting Process:**
+<img width="1083" height="608" alt="Screenshot 2025-07-29 at 10 13 46 AM" src="https://github.com/user-attachments/assets/ed40013f-f1b0-4372-b717-c2cabdf95dc9" />
+
+  
+* **Dashboard View:**
+  
+<img width="679" height="449" alt="Screenshot 2025-07-29 at 10 11 16 AM" src="https://github.com/user-attachments/assets/84add8f3-8cad-432a-8313-69948553683c" />
