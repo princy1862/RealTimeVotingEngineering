@@ -5,7 +5,8 @@ This repository provides a complete implementation of a real-time election votin
 ###  **System Overview**
 
 * **System Architecture:**
-* <img src="images/system_architecture.jpg" alt="System Architecture" width="500">
+
+![system_architecture](https://github.com/user-attachments/assets/1b1ddedd-5ae6-4b3d-8962-73493a901a2d)
 
 
 * **System Flow:** `system_flow.jpg`
@@ -19,20 +20,20 @@ This repository provides a complete implementation of a real-time election votin
 * **`spark-streaming.py`** – Consumes votes from `votes_topic`, enriches them with Postgres data, aggregates results, and publishes the processed data to specific Kafka topics.
 * **`streamlit-app.py`** – Fetches aggregated voting data from Kafka and Postgres, displaying it in real-time using Streamlit.
 
----
+
 
 ### **System Setup**
 
 The repository includes a **Docker Compose file** to easily launch **Zookeeper**, **Kafka**, and **Postgres** in containers.
 
----
+
 
 ###  **Prerequisites**
 
 * Python **3.9+**
 * **Docker** and **Docker Compose** installed
 
----
+
 
 ###  **Steps to Get Started**
 
@@ -47,48 +48,48 @@ The repository includes a **Docker Compose file** to easily launch **Zookeeper**
    * Kafka → `localhost:9092`
    * Postgres → `localhost:5432`
 
----
+
 
 ###  **Configuration**
 
 To change ports or Zookeeper/Kafka settings, edit the `docker-compose.yml` file as needed.
 
----
+
 
 ### **Running the Application**
 
 Install dependencies:
 
-
+```bash
 pip install -r requirements.txt
-
+```
 
 #### 1️ Create Postgres tables and generate voter info:
-
+```bash
 python main.py
-
+```
 
 #### 2️ Consume voter data, generate votes, and publish to Kafka:
 
-
+```bash
 python voting.py
-
+```
 
 #### 3️ Process and aggregate votes with Spark Streaming:
 
-
+```bash
 python spark-streaming.py
-
+```
 
 #### 4 Launch the real-time dashboard:
 
-
+```bash
 streamlit run streamlit-app.py
+```
 
 
 
-
-### 📸 **Screenshots**
+###  **Screenshots**
 
 * **Candidates and Parties:** `candidates_and_party.png`
 * **Voters List:** `voters.png`
